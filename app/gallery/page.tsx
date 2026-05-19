@@ -1,82 +1,25 @@
 import Navbar from "@/components/Navbar";
-import Link from "next/link";
+import Hero from "@/components/Hero";
+import Music from "@/components/Music";
 
-export default function Gallery() {
-  return (
-    <>
-      <Navbar />
+export default function Gallery(){
 
-      <main className="bg-black text-white min-h-screen">
+return(
 
-        <div className="max-w-6xl mx-auto px-8 pt-16">
+<>
 
-          <img
-            src="/cover.jpg"
-            className="
-            w-full
-            h-[600px]
-            object-cover
-            rounded-3xl
-            opacity-90
-            "
-          />
+<Navbar/>
 
-          <div className="text-center mt-12">
+<Music/>
 
-            <h1 className="text-7xl">
-              Azka × Neylan
-            </h1>
+<main className="bg-black min-h-screen">
 
-            <p className="text-gray-500 mt-6 text-xl">
+<Hero/>
 
-              Some moments deserve
-              more than memory.
+</main>
 
-            </p>
+</>
 
-          </div>
+)
 
-
-          <div className="flex justify-center gap-8 mt-16">
-
-            <Link
-              href="/photos"
-              className="
-              border border-zinc-700
-              px-10 py-5
-              rounded-xl
-              hover:bg-white
-              hover:text-black
-              transition
-              "
-            >
-
-              📸 Photos
-
-            </Link>
-
-
-            <Link
-              href="/videos"
-              className="
-              border border-zinc-700
-              px-10 py-5
-              rounded-xl
-              hover:bg-white
-              hover:text-black
-              transition
-              "
-            >
-
-              🎥 Videos
-
-            </Link>
-
-          </div>
-
-        </div>
-
-      </main>
-    </>
-  );
 }
