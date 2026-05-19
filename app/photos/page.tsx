@@ -7,8 +7,12 @@ const photos=[
 
 {id:1,src:"/photos/IMG1.jpg"},
 {id:2,src:"/photos/IMG2.jpg"},
-{id:3,src:"/photos/IMG3.jpg"}
-
+{id:3,src:"/photos/IMG3.jpg"},
+{id:4,src:"/photos/IMG4.jpg"},
+{id:5,src:"/photos/IMG5.jpg"},
+{id:6,src:"/photos/IMG6.jpg"},
+{id:7,src:"/photos/IMG7.jpg"},
+{id:8,src:"/photos/IMG8.jpg"},
 ]
 
 return(
