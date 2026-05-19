@@ -13,6 +13,7 @@ const photos=[
 {id:6,src:"/photos/IMG6.jpg"},
 {id:7,src:"/photos/IMG7.jpg"},
 {id:8,src:"/photos/IMG8.jpg"},
+{id:9,src:"/photos/IMG9.jpg"}
 ]
 
 return(
